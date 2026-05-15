@@ -134,7 +134,8 @@ python -m pip install -r requirements.txt
 
 ### 4. Загрузка модели
 Файлы модели не включены в репозиторий из-за ограничений GitHub.
-Скачайте артефакты по ссылке: Скачать модель
+Скачайте артефакты по ссылке: [скачать модель](https://drive.google.com/drive/folders/1nCG42TyWoEknjxhVN9xhfapPQNnqWwZR?usp=drive_link)
+
 После скачивания поместите файлы в папку model/:
 ```bash
 model/
