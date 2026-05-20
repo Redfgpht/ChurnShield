@@ -133,17 +133,17 @@ python -m pip install -r requirements.txt
 ```
 
 ### 4. Загрузка модели
-Файлы модели не включены в репозиторий из-за ограничений GitHub.
-Скачайте артефакты по ссылке: [скачать модель](https://drive.google.com/drive/folders/1nCG42TyWoEknjxhVN9xhfapPQNnqWwZR?usp=drive_link)
+Файлы модели включены в репозиторий.
+Однако если хочется обучить модель самостоятельно, это можно сделать запустив ChurnShield.ipynb
 
-После скачивания поместите файлы в папку model/:
+После скачивания поместите (замените) файлы в папку model/:
 ```bash
 model/
 ├── best_churn_model.pkl
 ├── scaler.pkl
 └── feature_names.json
 ```
-Альтернативно, обучите модель самостоятельно, запустив ChurnShield.ipynb.
+
 ### 5. Запуск сервера
 ```bash
 python run.py
